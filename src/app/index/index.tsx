@@ -1,5 +1,9 @@
-import { StyleSheet } from "react-native"
+import { View, Text } from "react-native";
 
-export const styles = StyleSheet.create({
-    container: {}
-})
+export default function Index(){
+    return (
+        <View>
+            <Text>Hello React Native</Text>
+        </View>
+    )
+}
