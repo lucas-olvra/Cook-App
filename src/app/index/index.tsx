@@ -5,7 +5,15 @@ import { styles } from "./styles";
 export default function Index(){
     return (
         <View style={styles.container}>
-            <Text>Hello React Native</Text>
+            <Text style={styles.title}>
+                Escolha {"\n"}
+                <Text style={styles.subtitle}>os produtos</Text>
+            </Text>
+
+            <Text style={styles.message}>
+                Descubra a receita baseada nos produtos que você escolheu.
+            </Text>
+
         </View>
     )
 }
